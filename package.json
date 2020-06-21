@@ -1,0 +1,48 @@
+{
+  "name": "voice-command-media-player",
+  "version": "0.1.1",
+  "description": "A library that provide command to control a video/audio through the voice.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config ./webpack.config.js",
+    "local": "webpack-dev-server  --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ananay-nag/voice-command-media-player.git"
+  },
+  "author": "ANANYA NAG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ananay-nag/voice-command-media-player/issues"
+  },
+  "homepage": "https://github.com/ananay-nag/voice-command-media-player#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "idempotent-babel-polyfill": "^7.4.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  }
+}
